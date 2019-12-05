@@ -974,12 +974,7 @@ def display():
         #     unicorn.display()
         #     print("----2------")
     if not start_Flag:
-        # start_img = pygame.image.load("source/场景/开始界面.png")
-        start_img = pygame.image.load('source/场景/刀塔传奇地图原画-bbg 春天龙骨(bbg_spring_d_爱给网_aigei_com.jpg')
-
-
-
-
+        start_img = pygame.image.load("source/场景/开始界面.png")
         screen.blit(start_img, (0, 0))
 
 
@@ -1035,8 +1030,7 @@ def create_skeleton():
     # 随机生成骷髅兵
     # enemyRefresh_time = 200
     if time_count % enemyRefresh_time == 0:
-        # enemyRefresh_time = random.randint(10, 15) * 10  # 重新设置一个随机的刷新时间
-        enemyRefresh_time = random.randint(10, 15) * 6  # 重新设置一个随机的刷新时间
+        enemyRefresh_time = random.randint(10, 15) * 10  # 重新设置一个随机的刷新时间
         # enemyRefresh_time = 20
         skeleton = Skeleton()  # 创建一个骷髅兵
         enemies.append(skeleton)  # 让骷髅兵加入骷髅群列表
@@ -1072,8 +1066,7 @@ def create_boss():
     # global time_count, enemyRefresh_time_2
     # 随机生成BOSS
     # enemyRefresh_time = 200
-    # enemyRefresh_time = 2200  # BOSS 的刷新时间
-    enemyRefresh_time = 1500  # BOSS 的刷新时间
+    enemyRefresh_time = 2200  # BOSS 的刷新时间
     if time_count % enemyRefresh_time == 0:
         boss = Boss()  # 创建一个BOSS
         enemies.append(boss)  # 让BOSS加入enemies列表

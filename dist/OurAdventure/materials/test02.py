@@ -7,7 +7,7 @@
 #
 # pygame.mixer.init()
 # # 加载欢快的背景音乐
-# a = pygame.mixer.Sound("materials/背景音乐/蘑菇城/mushroom_city.wav")
+# a = pygame.mixer.Sound("source/背景音乐/蘑菇城/mushroom_city.wav")
 # a.play()
 #
 #
@@ -16,7 +16,7 @@
 # class Background(object):
 #     def __init__(self):
 #         self.img = pygame.image.load \
-#             ('materials/场景/刀塔传奇地图原画-bbg 春天龙骨(bbg_spring_d_爱给网_aigei_com.jpg')
+#             ('source/场景/刀塔传奇地图原画-bbg 春天龙骨(bbg_spring_d_爱给网_aigei_com.jpg')
 #
 #     def display(self):
 #         screen.blit(self.img, (0, 0))
@@ -83,34 +83,34 @@
 #         # self.rect =rect
 #
 #         self.imgs_left = []
-#         self.imgs_left.append(pygame.image.load("materials/角色/瓜皮兔/瓜皮兔1.png"))
-#         self.imgs_left.append(pygame.image.load("materials/角色/瓜皮兔/瓜皮兔2.png"))
-#         self.imgs_left.append(pygame.image.load("materials/角色/瓜皮兔/瓜皮兔3.png"))
-#         self.imgs_left.append(pygame.image.load("materials/角色/瓜皮兔/瓜皮兔4.png"))
-#         self.imgs_left.append(pygame.image.load("materials/角色/瓜皮兔/瓜皮兔5.png"))
-#         self.imgs_left.append(pygame.image.load("materials/角色/瓜皮兔/瓜皮兔6.png"))
+#         self.imgs_left.append(pygame.image.load("source/角色/瓜皮兔/瓜皮兔1.png"))
+#         self.imgs_left.append(pygame.image.load("source/角色/瓜皮兔/瓜皮兔2.png"))
+#         self.imgs_left.append(pygame.image.load("source/角色/瓜皮兔/瓜皮兔3.png"))
+#         self.imgs_left.append(pygame.image.load("source/角色/瓜皮兔/瓜皮兔4.png"))
+#         self.imgs_left.append(pygame.image.load("source/角色/瓜皮兔/瓜皮兔5.png"))
+#         self.imgs_left.append(pygame.image.load("source/角色/瓜皮兔/瓜皮兔6.png"))
 #
 #         self.imgs_right = []
-#         self.imgs_right.append(pygame.image.load("materials/角色/镜像瓜皮兔/瓜皮兔1.png"))
-#         self.imgs_right.append(pygame.image.load("materials/角色/镜像瓜皮兔/瓜皮兔2.png"))
-#         self.imgs_right.append(pygame.image.load("materials/角色/镜像瓜皮兔/瓜皮兔3.png"))
-#         self.imgs_right.append(pygame.image.load("materials/角色/镜像瓜皮兔/瓜皮兔4.png"))
-#         self.imgs_right.append(pygame.image.load("materials/角色/镜像瓜皮兔/瓜皮兔5.png"))
-#         self.imgs_right.append(pygame.image.load("materials/角色/镜像瓜皮兔/瓜皮兔6.png"))
+#         self.imgs_right.append(pygame.image.load("source/角色/镜像瓜皮兔/瓜皮兔1.png"))
+#         self.imgs_right.append(pygame.image.load("source/角色/镜像瓜皮兔/瓜皮兔2.png"))
+#         self.imgs_right.append(pygame.image.load("source/角色/镜像瓜皮兔/瓜皮兔3.png"))
+#         self.imgs_right.append(pygame.image.load("source/角色/镜像瓜皮兔/瓜皮兔4.png"))
+#         self.imgs_right.append(pygame.image.load("source/角色/镜像瓜皮兔/瓜皮兔5.png"))
+#         self.imgs_right.append(pygame.image.load("source/角色/镜像瓜皮兔/瓜皮兔6.png"))
 #
 #         self.index = 0
 #         self.count = 0
 #         self.img = self.imgs_left[0]
 #         # 主角死亡图
 #         self.boom_imgs = []
-#         self.boom_imgs.append(pygame.image.load("materials/角色/主角死亡/8.png"))
-#         self.boom_imgs.append(pygame.image.load("materials/角色/主角死亡/7.png"))
-#         self.boom_imgs.append(pygame.image.load("materials/角色/主角死亡/6.png"))
-#         self.boom_imgs.append(pygame.image.load("materials/角色/主角死亡/5.png"))
-#         self.boom_imgs.append(pygame.image.load("materials/角色/主角死亡/4.png"))
-#         self.boom_imgs.append(pygame.image.load("materials/角色/主角死亡/3.png"))
-#         self.boom_imgs.append(pygame.image.load("materials/角色/主角死亡/2.png"))
-#         self.boom_imgs.append(pygame.image.load("materials/角色/主角死亡/1.png"))
+#         self.boom_imgs.append(pygame.image.load("source/角色/主角死亡/8.png"))
+#         self.boom_imgs.append(pygame.image.load("source/角色/主角死亡/7.png"))
+#         self.boom_imgs.append(pygame.image.load("source/角色/主角死亡/6.png"))
+#         self.boom_imgs.append(pygame.image.load("source/角色/主角死亡/5.png"))
+#         self.boom_imgs.append(pygame.image.load("source/角色/主角死亡/4.png"))
+#         self.boom_imgs.append(pygame.image.load("source/角色/主角死亡/3.png"))
+#         self.boom_imgs.append(pygame.image.load("source/角色/主角死亡/2.png"))
+#         self.boom_imgs.append(pygame.image.load("source/角色/主角死亡/1.png"))
 #         self.boom_index = 0
 #         self.boom_time = 10
 #
@@ -242,8 +242,8 @@
 #         self.width = 40
 #         self.height = 40
 #         self.speed = 15
-#         # self.img = pygame.image.load("materials/角色子弹/普攻/火球_001.png")
-#         self.img = pygame.image.load("materials/角色子弹/普攻/火球_002.png")
+#         # self.img = pygame.image.load("source/角色子弹/普攻/火球_001.png")
+#         self.img = pygame.image.load("source/角色子弹/普攻/火球_002.png")
 #         len_x = press_mouse_x - self.x
 #         len_y = press_mouse_y - self.y
 #         s = math.sqrt(len_x ** 2 + len_y ** 2)
@@ -283,27 +283,27 @@
 #         self.atk = 4
 #         self.speed = 9
 #         self.imgs = []
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑0.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑1.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑2.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑3.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑4.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑5.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑6.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑7.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑8.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑9.png"))
-#         self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑10.png"))
-#         # self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/火焰喷射/火焰喷射5.png"))
-#         # self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/火焰喷射/火焰喷射6.png"))
-#         # self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/火焰喷射/火焰喷射7.png"))
-#         # self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/火焰喷射/火焰喷射8.png"))
-#         # self.imgs.append(pygame.image.load("materials/角色子弹/特殊子弹/火焰喷射/火焰喷射9.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑0.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑1.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑2.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑3.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑4.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑5.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑6.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑7.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑8.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑9.png"))
+#         self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/螺旋丸手里剑/螺旋丸手里剑10.png"))
+#         # self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/火焰喷射/火焰喷射5.png"))
+#         # self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/火焰喷射/火焰喷射6.png"))
+#         # self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/火焰喷射/火焰喷射7.png"))
+#         # self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/火焰喷射/火焰喷射8.png"))
+#         # self.imgs.append(pygame.image.load("source/角色子弹/特殊子弹/火焰喷射/火焰喷射9.png"))
 #         self.img = self.imgs[0]
 #         # print(self.img)
 #         self.index = 0
 #
-#         # self.img = pygame.image.load("materials/角色子弹/普攻/火球_002.png")
+#         # self.img = pygame.image.load("source/角色子弹/普攻/火球_002.png")
 #         len_x = press_mouse_x - self.x
 #         len_y = press_mouse_y - self.y
 #         s = math.sqrt(len_x ** 2 + len_y ** 2)
@@ -372,12 +372,12 @@
 #         self.imgs_right = []
 #         self.imgs_left = []
 #         self.boom_img = []
-#         self.boom_img.append(pygame.image.load("materials/爆炸/boom_1.png"))
-#         self.boom_img.append(pygame.image.load("materials/爆炸/boom_2.png"))
-#         self.boom_img.append(pygame.image.load("materials/爆炸/boom_3.png"))
-#         self.boom_img.append(pygame.image.load("materials/爆炸/boom_4.png"))
-#         self.boom_img.append(pygame.image.load("materials/爆炸/boom_5.png"))
-#         self.boom_img.append(pygame.image.load("materials/爆炸/boom_6.png"))
+#         self.boom_img.append(pygame.image.load("source/爆炸/boom_1.png"))
+#         self.boom_img.append(pygame.image.load("source/爆炸/boom_2.png"))
+#         self.boom_img.append(pygame.image.load("source/爆炸/boom_3.png"))
+#         self.boom_img.append(pygame.image.load("source/爆炸/boom_4.png"))
+#         self.boom_img.append(pygame.image.load("source/爆炸/boom_5.png"))
+#         self.boom_img.append(pygame.image.load("source/爆炸/boom_6.png"))
 #         self.boom_index = 0
 #         self.boom_time = 5
 #         # self.img=self.imgs_left[0]
@@ -433,7 +433,7 @@
 #         self.height = 32
 #         self.speed = 5
 #         self.atk = 2
-#         self.img = pygame.image.load("materials/角色子弹/普攻/发散火球.png")
+#         self.img = pygame.image.load("source/角色子弹/普攻/发散火球.png")
 #         len_x = player.x - self.x
 #         len_y = player.y - self.y
 #         s = math.sqrt(len_x ** 2 + len_y ** 2)
@@ -462,7 +462,7 @@
 #         self.height = 32
 #         self.speed = 5
 #         self.atk = 1
-#         self.img = pygame.image.load("materials/角色子弹/普攻/蓝火球_001.png")
+#         self.img = pygame.image.load("source/角色子弹/普攻/蓝火球_001.png")
 #         len_x = player.x - self.x
 #         len_y = player.y - self.y
 #         s = math.sqrt(len_x ** 2 + len_y ** 2)
@@ -492,7 +492,7 @@
 #         self.height = 32
 #         self.speed = 5
 #         self.atk = 5
-#         self.img = pygame.image.load("materials/boss技能/魔法黑弹/魔法黑弹.png")
+#         self.img = pygame.image.load("source/boss技能/魔法黑弹/魔法黑弹.png")
 #         len_x = player.x - self.x
 #         len_y = player.y - self.y
 #         s = math.sqrt(len_x ** 2 + len_y ** 2)
@@ -521,7 +521,7 @@
 #         self.height = 32
 #         self.speed = 5
 #         self.atk = 4
-#         self.img = pygame.image.load("materials/角色子弹/普攻/闪电球 .png")
+#         self.img = pygame.image.load("source/角色子弹/普攻/闪电球 .png")
 #         len_x = player.x - self.x
 #         len_y = player.y - self.y
 #         s = math.sqrt(len_x ** 2 + len_y ** 2)
@@ -550,7 +550,7 @@
 #         self.height = 50
 #         self.speed = 5
 #         self.atk = 7
-#         self.img = pygame.image.load("materials/角色子弹/特殊子弹/大火球/大火球0.png")
+#         self.img = pygame.image.load("source/角色子弹/特殊子弹/大火球/大火球0.png")
 #         len_x = player.x - self.x
 #         len_y = player.y - self.y
 #         s = math.sqrt(len_x ** 2 + len_y ** 2)
@@ -589,19 +589,19 @@
 #             self.y = SCREEN_HEIGHT
 #
 #         self.imgs_left = []
-#         self.imgs_left.append(pygame.image.load("materials/怪物/窟窿战士/骷髅战士01.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/窟窿战士/骷髅战士02.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/窟窿战士/骷髅战士03.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/窟窿战士/骷髅战士04.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/骷髅小兵挥刀动图/骷髅战士左1.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/骷髅小兵挥刀动图/骷髅战士左2.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/窟窿战士/骷髅战士01.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/窟窿战士/骷髅战士02.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/窟窿战士/骷髅战士03.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/窟窿战士/骷髅战士04.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/骷髅小兵挥刀动图/骷髅战士左1.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/骷髅小兵挥刀动图/骷髅战士左2.png"))
 #         self.imgs_right = []
-#         self.imgs_right.append(pygame.image.load("materials/怪物/窟窿战士/骷髅战士11.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/窟窿战士/骷髅战士22.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/窟窿战士/骷髅战士33.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/窟窿战士/骷髅战士44.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/骷髅小兵挥刀动图/骷髅战士右1.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/骷髅小兵挥刀动图/骷髅战士右2.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/窟窿战士/骷髅战士11.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/窟窿战士/骷髅战士22.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/窟窿战士/骷髅战士33.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/窟窿战士/骷髅战士44.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/骷髅小兵挥刀动图/骷髅战士右1.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/骷髅小兵挥刀动图/骷髅战士右2.png"))
 #         self.index = 0
 #         self.count = 0
 #         self.img = self.imgs_left[0]
@@ -671,18 +671,18 @@
 #         self.y = random.randint(0, 5) * (LAND_HEIGHT / 5) + self.height / 2
 #         self.x = random.randint(0, 1) * SCREEN_WIDTH  # 左右随机出现怪物
 #         self.imgs_left = []
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟01.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟02.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟03.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟04.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟05.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟01.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟02.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟03.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟04.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟05.png"))
 #
 #         self.imgs_right = []
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟11.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟22.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟33.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟44.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙麒麟/龙麒麟55.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟11.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟22.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟33.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟44.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙麒麟/龙麒麟55.png"))
 #         self.index = 0
 #         self.count = 0
 #         self.img = self.imgs_left[0]
@@ -748,20 +748,20 @@
 #         self.x = random.randint(0, 1) * SCREEN_WIDTH  # 左右随机出现怪物
 #
 #         self.imgs_left = []
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙/蓝1.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙/蓝2.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙/蓝3.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙/蓝4.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙/蓝5.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙/蓝6.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/小龙/蓝龙/蓝1.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/小龙/蓝龙/蓝2.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/小龙/蓝龙/蓝3.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/小龙/蓝龙/蓝4.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/小龙/蓝龙/蓝5.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/小龙/蓝龙/蓝6.png"))
 #
 #         self.imgs_right = []
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙镜像/蓝1反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙镜像/蓝2反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙镜像/蓝3反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙镜像/蓝4反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙镜像/蓝5反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/小龙/蓝龙镜像/蓝6反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/小龙/蓝龙镜像/蓝1反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/小龙/蓝龙镜像/蓝2反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/小龙/蓝龙镜像/蓝3反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/小龙/蓝龙镜像/蓝4反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/小龙/蓝龙镜像/蓝5反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/小龙/蓝龙镜像/蓝6反.png"))
 #         self.index = 0
 #         self.count = 0
 #         self.img = self.imgs_left[0]
@@ -836,20 +836,20 @@
 #         self.x = random.randint(0, 1) * SCREEN_WIDTH  # 左右随机出现怪物
 #
 #         self.imgs_left = []
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/大龙/黑龙/黑龙1.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/大龙/黑龙/黑龙2.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/大龙/黑龙/黑龙3.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/大龙/黑龙/黑龙4.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/大龙/黑龙/黑龙5.png"))
-#         self.imgs_left.append(pygame.image.load("materials/怪物/龙/大龙/黑龙/黑龙6.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/大龙/黑龙/黑龙1.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/大龙/黑龙/黑龙2.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/大龙/黑龙/黑龙3.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/大龙/黑龙/黑龙4.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/大龙/黑龙/黑龙5.png"))
+#         self.imgs_left.append(pygame.image.load("source/怪物/龙/大龙/黑龙/黑龙6.png"))
 #
 #         self.imgs_right = []
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/大龙/黑龙镜像/黑龙1反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/大龙/黑龙镜像/黑龙2反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/大龙/黑龙镜像/黑龙3反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/大龙/黑龙镜像/黑龙4反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/大龙/黑龙镜像/黑龙5反.png"))
-#         self.imgs_right.append(pygame.image.load("materials/怪物/龙/大龙/黑龙镜像/黑龙6反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/大龙/黑龙镜像/黑龙1反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/大龙/黑龙镜像/黑龙2反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/大龙/黑龙镜像/黑龙3反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/大龙/黑龙镜像/黑龙4反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/大龙/黑龙镜像/黑龙5反.png"))
+#         self.imgs_right.append(pygame.image.load("source/怪物/龙/大龙/黑龙镜像/黑龙6反.png"))
 #         self.index = 0
 #         self.count = 0
 #         self.img = self.imgs_left[0]
@@ -980,7 +980,7 @@
 #         #     unicorn.display()
 #         #     print("----2------")
 #     if not start_Flag:
-#         start_img = pygame.image.load("materials/场景/开始界面.png")
+#         start_img = pygame.image.load("source/场景/开始界面.png")
 #         screen.blit(start_img, (0, 0))
 #
 #
@@ -1002,7 +1002,7 @@
 #                 global anxiety_count
 #                 anxiety_count += 1
 #                 # 加载子弹音效
-#                 sound = pygame.mixer.Sound("materials/sounds/player_normal_bullet.wav")
+#                 sound = pygame.mixer.Sound("source/sounds/player_normal_bullet.wav")
 #                 sound.play()
 #                 # player.attack()
 #                 global press_mouse_x, press_mouse_y
@@ -1075,10 +1075,10 @@
 #         boss = Boss()  # 创建一个BOSS
 #         enemies.append(boss)  # 让BOSS加入enemies列表
 #         # 加载龙吼音效
-#         sound = pygame.mixer.Sound("materials/角色音效/boss吼叫音效/吼声05.wav")
+#         sound = pygame.mixer.Sound("source/角色音效/boss吼叫音效/吼声05.wav")
 #         sound.play()
 #         a.stop()
-#         s = pygame.mixer.Sound("materials/背景音乐/无限火力/01.wav")  # boss出场特殊bgm
+#         s = pygame.mixer.Sound("source/背景音乐/无限火力/01.wav")  # boss出场特殊bgm
 #         s.play()
 #
 #
@@ -1127,7 +1127,7 @@
 #             display()
 #         else:
 #             over = pygame.image.load \
-#                 ('materials/场景/结束界面.png')
+#                 ('source/场景/结束界面.png')
 #             screen.blit(over, (0, 0))
 #             # 显示存活时间======
 #             fontObj = pygame.font.Font(None, 80)  # 通过字体文件获得字体对象
